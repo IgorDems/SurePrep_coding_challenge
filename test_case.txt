@@ -1,0 +1,43 @@
+
+Project Name: SurePrep front-end coding challenge
+Test Case Template
+
+Test Case ID: Fun_10
+Test Priority (Low/Medium/High): Med
+Module Name: Google login screen
+Test Title: Verify login with valid username and password
+Description: Test the Google login page
+
+Test Designed by: <Name>
+Test Designed date: <Date>
+Test Executed by: <Name>
+Test Execution date: <Date>
+
+Pre-conditions: 
+Browser: Google Chrome Version 59.0.3071.115 (Official Build) (64-bit)
+System Version: macOS 10.12.6 (16G29)
+Dependencies: selenium-java 3.3.1, TestNG-5.0, java-1.8, …
+
+
+
+
+1.Navigate to http://sureprep-frontend-coding-challenge.s3-website-us-east-1.amazonaws.com/
+Expected Result: Navigate - ok!
+2.Search "m" and verify there are 3 results each for inbound destinations. Bonus for verifying their airport code: JNB, BOM and SYD.
+Expected Result: all codes: JNB, BOM and SYD - presente.
+3.Navigate to inbound destinations.
+Expected Result: Navigate to inbound destinations - ok!
+4.Search "m" and verify there are 3 results each for outbound destinations. Bonus for verifying their airport code: JNB, BOM and SYD.
+Expected Result: all codes: JNB, BOM and SYD - presente.
+5.Search "Lon" and verify the result is "London, UK". 
+Expected Result:"London, UK" - presente.
+6.Navigate to outbound destinations.
+Expected Result: Navigate to outbound destinations - ok!
+7.Verify there are 2 outbound flights.
+Expected Result: 2 outbound flights presente.
+8.Navigate to inbound destinations.
+Expected Result:Navigate to inbound destinations - ok!
+9.Verify there are 3 inbound flights.
+Expected Result: 3 inbound flights presente.
+10.Bonus for verifying location (51°28'14.2"N 0°27'43.0"W) in google maps.
+Expected Result: Datas are matched
